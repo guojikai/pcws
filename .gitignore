@@ -1,5 +1,5 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+composer.phar
+composer.lock
+vendor/
+*.swp
+.DS_Store
