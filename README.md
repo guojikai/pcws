@@ -24,7 +24,7 @@ use Pcws\Pcws;
 use Pcws\PcwsException;
 
 try {
-	$words_array = Pcws::segment('Hi,Han Meimei!刘德华是会计师嘛？');
+	$words_array = Pcws::segment('Hi,Han Meimei!刘德华是会计师嘛？', 2); //String, Lenght(中文单词起始长度，2即忽略两个汉字以下的中文单词)
 } catch (PcwsException $e) {
 	echo $e->getMessage();
 	exit;
@@ -38,7 +38,7 @@ var_dump($words_array);
 output:
 
 ```php
-string(41) "hi han meimei 刘德华 是 会计师 嘛"
+string(33) "hi han meimei 刘德华 会计师"
 ```
 
 
