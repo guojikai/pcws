@@ -1,6 +1,6 @@
 {
     "name": "guojikai/pcws",
-    "description": "A chinese word segmention tool,written by PHP.一个基于PHP和Web API的中文分词工具。",
+    "description": "A chinese word segmentation tool,written by PHP.一个基于PHP和Web API的中文分词工具。",
     "keywords": ["chinese", "php"],
     "license": "MIT",
 		"homepage": "https://github.com/guojikai/pcws",
