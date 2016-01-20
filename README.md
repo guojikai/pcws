@@ -1,6 +1,6 @@
 Pcws
 ===============
-A chinese word segmentation tool,written by PHP.一个基于PHP和Web API的中文分词工具。
+一个PHP写的基于Web API的中文分词工具。
 
 Installation
 ------------
