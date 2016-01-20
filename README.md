@@ -1,22 +1,22 @@
 Pcws
-===============
+====
 一个PHP写的基于Web API的中文分词工具。
 
-Installation
-------------
-Install the latest stable version using composer:
+安装
+----
+使用 Composer 安装：
 
 ```
 composer require guojikai/pcws
 ```
-And add the require in your index file: (eg. index.php)
+在入口文件引入 Composer 启动脚本： (eg. index.php)
 
 ```php
 require 'vendor/autoload.php';
 ```
 
-Usege
------
+使用
+----
 ```php
 <?php
 
@@ -32,13 +32,9 @@ try {
 
 var_dump($words_array);
 
+//output:
+//string(33) "hi han meimei 刘德华 会计师"
+
 ?>
 ```
-
-output:
-
-```php
-string(33) "hi han meimei 刘德华 会计师"
-```
-
 
